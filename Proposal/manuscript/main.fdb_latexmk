@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1705407247 "c:/Users/mine/Desktop/Research/Research Proposal Template/Proposal/manuscript/main.tex" "main.pdf" "main" 1705407259 0
+["pdflatex"] 1705407672 "c:/Users/mine/Desktop/Research/Research Proposal Template/Proposal/manuscript/main.tex" "main.pdf" "main" 1705407678 0
   "C:/Users/mine/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1690566741 158531 3b759adc7cd1639a40594533d1778f1e ""
   "C:/Users/mine/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1685106102 23185043 ef6d7f80b5d2152c071610e3101b7b88 ""
   "C:/Users/mine/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1421694697 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -193,10 +193,10 @@
   "C:/Users/mine/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/mine/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/mine/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1673962217 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/mine/Desktop/Research/Research Proposal Template/Proposal/manuscript/main.tex" 1705404652 2552 a94dabf2e18b3c0c46b61760a746512b ""
-  "main.aux" 1705407257 5354 58cf6aebbb18dd08302f12cb3ebefaf1 "pdflatex"
-  "main.tex" 1705404652 2552 a94dabf2e18b3c0c46b61760a746512b ""
-  "main.toc" 1705407257 3020 ef5447535dde9d4ad565f6ffdb163d57 "pdflatex"
+  "c:/Users/mine/Desktop/Research/Research Proposal Template/Proposal/manuscript/main.tex" 1705407671 2498 ed153f6bfb23ca4cee96e4217f072f12 ""
+  "main.aux" 1705407677 5354 58cf6aebbb18dd08302f12cb3ebefaf1 "pdflatex"
+  "main.tex" 1705407671 2498 ed153f6bfb23ca4cee96e4217f072f12 ""
+  "main.toc" 1705407677 3020 ef5447535dde9d4ad565f6ffdb163d57 "pdflatex"
   "preamble.sty" 1705329730 767 2bb15aaae7c392d591eb8ad6143e2cf2 ""
   "sections/Background/main.tex" 1705403522 20 c8ef36e912ab5abc8c5fd2231fe471dc ""
   "sections/Conceptual Framework/main.tex" 1705403854 30 8e590dd5d0009da8e360b0fd25862087 ""
