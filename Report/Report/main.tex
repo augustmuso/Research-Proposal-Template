@@ -1,0 +1,57 @@
+\documentclass{report}
+
+\usepackage{preamble}
+
+\title{Research Report Template}
+\author{Author}
+\date{\today}
+
+\begin{document}
+
+
+% titlepage
+\input{sections/titlePage/main}
+
+
+% =======================================================================
+\clearpage
+\pagenumbering{roman}
+
+\input{sections/Preamble/main}
+
+\pagebreak
+\tableofcontents
+
+% =======================================================================
+\clearpage
+\pagenumbering{arabic}
+
+\pagebreak
+\input{sections/chapter1/main}
+
+\pagebreak
+\input{sections/chapter2/main}
+
+\pagebreak
+\input{sections/chapter3/main}
+
+\pagebreak
+\input{sections/chapter4/main}
+
+\pagebreak
+\input{sections/chapter5/main}
+
+\pagebreak
+\input{sections/chapter6/main}
+
+\pagebreak
+\cleardoublepage
+\addcontentsline{toc}{chapter}{\numberline{}References}
+\bibliographystyle{apacite}
+\bibliography{ref.bib}
+\cleardoublepage
+
+\pagebreak
+\input{sections/appendix/main}
+
+\end{document}
