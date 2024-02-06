@@ -1,4 +1,13 @@
-\documentclass[14pt]{report}
+% ------------------------------------------------------------------------
+% Template for [Your Document Type] based on the 
+% DIRECTORATE OF RESEARCH AND GRADUATE TRAINING
+% GUIDELINES FOR THE FORMAT OF RESEARCH PROPOSALS,
+% RESEARCH REPORTS, THESIS AND DISSERTATIONS
+% Document: https://rgt.mak.ac.ug/sites/default/files/Research-Proposal-Thesis-Format-Ver-4-April-2011.pdf
+% ------------------------------------------------------------------------
+
+
+\documentclass[14pt]{article}
 
 \usepackage{preamble}
 
@@ -11,42 +20,41 @@
 % titlepage
 \input{sections/titlePage/main}
 
-
 % =======================================================================
 \clearpage
 \pagenumbering{roman}
 
-\addcontentsline{toc}{chapter}{\numberline{}Declaration}
+\addcontentsline{toc}{section}{\numberline{}Declaration}
 \cleardoublepage
 \input{sections/Preamble/DECLARATION.tex}
 \pagebreak
 
-\addcontentsline{toc}{chapter}{\numberline{}Acknowledgement}
+\addcontentsline{toc}{section}{\numberline{}Acknowledgement}
 \cleardoublepage
 \input{sections/Preamble/ACKNOWLEDGEMENT.tex}
 \pagebreak
 
-\addcontentsline{toc}{chapter}{\numberline{}List Of Tables}
+\addcontentsline{toc}{section}{\numberline{}List Of Tables}
 \cleardoublepage
 \input{sections/Preamble/LIST OF TABLES.tex}
 \pagebreak
 
-\addcontentsline{toc}{chapter}{\numberline{}List Of Figures}
+\addcontentsline{toc}{section}{\numberline{}List Of Figures}
 \cleardoublepage
 \input{sections/Preamble/LIST OF FIGURES.tex}
 \pagebreak
 
-\addcontentsline{toc}{chapter}{\numberline{}Operational Definitions}
+\addcontentsline{toc}{section}{\numberline{}Operational Definitions}
 \cleardoublepage
 \input{sections/Preamble/OPERATIONAL DEFINITIONS.tex}
 \pagebreak
 
-\addcontentsline{toc}{chapter}{\numberline{}Abbreviations}
+\addcontentsline{toc}{section}{\numberline{}Abbreviations}
 \cleardoublepage
 \input{sections/Preamble/ABBREVIATIONS.tex}
 \pagebreak
 
-\addcontentsline{toc}{chapter}{\numberline{}Abstract}
+\addcontentsline{toc}{section}{\numberline{}Abstract}
 \cleardoublepage
 \input{sections/Preamble/ABSTRACT.tex}
 
@@ -62,7 +70,6 @@
 
 
 \pagebreak
-\chapter{Chapter One}
 \input{sections/Background/main.tex}
 \input{sections/Problem statement/main.tex}
 \input{sections/Objectives/main.tex}
@@ -70,37 +77,28 @@
 
 
 \pagebreak
-\chapter{Chapter Two}
 \input{sections/Literature Review/main.tex}
 
 
 \pagebreak
-\chapter{Chapter Three}
 \input{sections/Methodology/main.tex}
 
 
 \pagebreak
-\chapter{Results}
-\input{sections/Results/main.tex}
-
-\pagebreak
-\chapter{Discussions}
-\input{sections/Discussions/main.tex}
+\input{sections/Considerations/main.tex}
 
 
 \pagebreak
-\chapter{Conclusion and Recommendations}
-\input{sections/conclusions/main.tex}
-\input{sections/Recommendations/main.tex}
+\input{sections/limititations/main.tex}
 
 \pagebreak
-\addcontentsline{toc}{chapter}{\numberline{}References}
+\addcontentsline{toc}{section}{\numberline{}References}
 \cleardoublepage
 
 
 \appendix
 
-\addcontentsline{toc}{chapter}{\numberline{}Appendix}
+\addcontentsline{toc}{section}{\numberline{}Appendix}
 \cleardoublepage
 
 \input{sections/appendix/Work plan.tex}
